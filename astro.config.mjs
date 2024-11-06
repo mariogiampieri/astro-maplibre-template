@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://design-practices.github.io",
-  base: "astro-maplibre-template",
+  site: "https://mariogiampieri.github.io",
+  base: "astro-maplibre-template-test",
   integrations: [mdx(), sitemap(), tailwind()],
 });

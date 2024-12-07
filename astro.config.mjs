@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://mariogiampieri.github.io",
-  base: "astro-maplibre-template",
+  base: "foo-bar",
   integrations: [mdx(), sitemap(), tailwind()],
 });
